@@ -27,7 +27,7 @@ export const Intro = () => {
                 <span className="different">
                   Surat, Gujarat (India)
                 </span>
-                . I have completed my graduation in BTech (Computer Engineering)
+                . I have completed my graduation in B.Tech (Computer Engineering)
                 from{" "}
                 <span className="different">
                   LalBhai DalpatBhai Collage Of Engineering (LDCE)

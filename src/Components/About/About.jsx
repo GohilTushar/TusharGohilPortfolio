@@ -1,13 +1,9 @@
 import React from "react";
 import "./About.css";
 import { Type } from "./Type";
-// import GitHubIcon from "@material-ui/icons/GitHub";
 import { BsGithub } from "react-icons/bs";
-// import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { SiLinkedin } from "react-icons/si";
-// import EmailIcon from "@material-ui/icons/Email";
 import { MdOutlineMailOutline } from "react-icons/md";
-// import PhoneIcon from "@material-ui/icons/Phone";
 import { FaPhone } from "react-icons/fa";
 import { Intro } from "./Intro";
 import { Timeline } from "./Timeline";
@@ -21,7 +17,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          In the early stage of my career in Software Development and actively
+          In the early stage of my Software Development career and actively
           learning and gaining proficiency in both frontend and backend
           technologies. not be expert in all areas of Full-Stack Development but
           continously building skills and gradually expanding proficiency in
@@ -38,7 +34,6 @@ export const About = () => {
             className="link link--icon"
           >
             <BsGithub />
-            {/* <GitHubIcon /> */}
           </a>
           <a
             href="mailto:gohiltushar3012@gmail.com"
@@ -48,7 +43,6 @@ export const About = () => {
             className="link link--icon"
           >
             <MdOutlineMailOutline />
-            {/* <EmailIcon /> */}
           </a>
           <a
             href="tel:+919879421538"
@@ -58,7 +52,6 @@ export const About = () => {
             className="link link--icon"
           >
             <FaPhone />
-            {/* <PhoneIcon /> */}
           </a>
           <a
             href="https://www.linkedin.com/in/tushar-gohil-71540b234/"
@@ -68,7 +61,6 @@ export const About = () => {
             rel="noreferrer"
           >
             <SiLinkedin />
-            {/* <LinkedInIcon /> */}
           </a>
         </div>
 
@@ -76,7 +68,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing",
+              "https://drive.google.com/file/d/1JZL5A6CJVLMb3oeF6eOqfl20gy9YYNmo/view?usp=sharing",
             );
           }}
         >

@@ -46,7 +46,7 @@ export const Project = () => {
                 </div>
                 <div>
                   <a
-                    href="https://expense-tracker-gohiltushar.vercel.app/"
+                    href="https://expense-tracker-flax-nine.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >

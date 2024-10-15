@@ -1,24 +1,29 @@
 import React from "react";
 import "./TechStacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs,FaAngular } from "react-icons/fa";
 import {
   SiHtml5,
   SiCplusplus,
   SiExpress,
   SiTailwindcss,
+  SiTypescript,
+  SiNextdotjs,
+  SiServerless,
+  SiAmazons3
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { DiCss3, DiMongodb ,DiMysql,DiPostgresql} from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
+
 
 export const TechStacks = () => {
   return (
     <>
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
-        <div className="techsection">
 
+        <div className="techsection">
           <div>
             <SiCplusplus />
             <h5>C/C++</h5>
@@ -44,8 +49,20 @@ export const TechStacks = () => {
             <h5>Javascript</h5>
           </div>
           <div>
+            <SiTypescript />
+            <h5>Typescript</h5>
+          </div>
+          <div>
             <FaReact />
             <h5>React</h5>
+          </div>
+          <div>
+            <FaAngular />
+            <h5>Angular</h5>
+          </div>
+          <div>
+          <SiNextdotjs />
+            <h5>NextJS</h5>
           </div>
           <div>
             <FaNodeJs />
@@ -60,10 +77,27 @@ export const TechStacks = () => {
             <h5>MongoDb</h5>
           </div>
           <div>
+            <DiMysql />
+            <h5>MySQL</h5>
+          </div>
+          <div>
+            <DiPostgresql />
+            <h5>PostgreSQL</h5>
+          </div>
+          <div>
+            <SiServerless />
+            <h5>ServerLess</h5>
+          </div>
+          <div>
+            <SiAmazons3 />
+            <h5>AmazonS3</h5>
+          </div>
+          <div>
             <VscGithub />
-            <h5>Github</h5>
+            <h5>GitHub</h5>
           </div>
         </div>
+
       </div>
     </>
   );

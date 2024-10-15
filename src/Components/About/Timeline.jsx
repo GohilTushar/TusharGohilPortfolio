@@ -6,11 +6,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-// import WorkIcon from "@material-ui/icons/Work";
 import { MdOutlineWorkOutline } from "react-icons/md";
-// import SchoolIcon from "@material-ui/icons/School";
 import { IoSchoolSharp } from "react-icons/io5";
-// import StarRateIcon from "@material-ui/icons/StarRate";
 import { MdOutlineStarRate } from "react-icons/md";
 import { ThemeContext } from "../../Context/Theme";
 
@@ -28,7 +25,7 @@ export const Timeline = () => {
     }
   }, [themename]);
   return (
-    <>      
+    <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
           My <span className="different">Timeline 💫</span>
@@ -37,7 +34,46 @@ export const Timeline = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"February 2024 - Present"}
+            date={"May 2024 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<MdOutlineWorkOutline />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              MERN Stack Developer
+
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              <a href="https://www.patoliyainfotech.com/" className="link">
+                Patoliya Infotech</a>
+            </h4>
+            Have been the part of PI-Web Admin side and Worked with all Three (HRM,Sales,Recruit)Module
+            <p data-aos="fade-right">
+              This include the process starting from the candidate apply to the candidate Hired/Rejected.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"February 2024 - March 2024"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -69,10 +105,10 @@ export const Timeline = () => {
               <a href="https://sciative.com/" className="link">
                 SCIATIVE SOLUTIONS (We Price Right)</a>
             </h4>
+            Collected data from Instagram, Facebook, and Twitter using python scrapy.
             <p data-aos="fade-right">
-              Excited to enhance my skills, contribute to the team's success, and continue my commitment to excellence. 
+              This involved extracting information for analysis or research purposes.
             </p>
-              And Looking for the great Opportunities.
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -105,19 +141,19 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
               <a href="https://infolabz.in/" className="link">
-              INFOLABZ IT SERVICES PVT. LTD.</a>
+                INFOLABZ IT SERVICES PVT. LTD.</a>
 
             </h4>
             <p data-aos="fade-right">
               Created A News Feed App , This News Fetch From The API And In The Form Of Card Showcase In The Website.
               <p>
-              By Changing The Category One Can Get The News Feed According To Their Choice.
+                By Changing The Category One Can Get The News Feed According To Their Choice.
               </p>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"August 2020 - Present"}
+            date={"August 2020 - August 2024"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -146,16 +182,16 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
               <a href="https://ldce.ac.in/" className="link">
-              Lalbhai Dalpatbhai College Of Engineering (LDCE) </a>
+                Lalbhai Dalpatbhai College Of Engineering (LDCE) </a>
             </h4>
             <p data-aos="fade-right">
-              Pursuing Computer Engineering and 8.76 CGPA (upto 6th Semester).
+              Completed Computer Engineering with 8.80 CGPA.
             </p>
-              Ahmedabad (Gujrat)
+            Ahmedabad (Gujrat)
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"March 2020"} 
+            date={"March 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -184,13 +220,13 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
               <a href="https://www.instagram.com/b.h.kalsariya_science_academy/" className="link">
-              B.H. Kalsariya Science Academy
-                </a>
+                B.H. Kalsariya Science Academy
+              </a>
             </h4>
             <p data-aos="fade-right">
               Studied 12th Science and Passed with 85.67 Percentage.
             </p>
-               Surat (Gujrat)
+            Surat (Gujrat)
           </VerticalTimelineElement>
           <VerticalTimelineElement
             icon={<MdOutlineStarRate />}
