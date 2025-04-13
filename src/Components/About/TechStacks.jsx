@@ -9,7 +9,8 @@ import {
   SiTypescript,
   SiNextdotjs,
   SiServerless,
-  SiAmazons3
+  SiAmazons3,
+  SiFirebase
 } from "react-icons/si";
 import { DiCss3, DiMongodb ,DiMysql,DiPostgresql} from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -57,14 +58,6 @@ export const TechStacks = () => {
             <h5>React</h5>
           </div>
           <div>
-            <FaAngular />
-            <h5>Angular</h5>
-          </div>
-          <div>
-          <SiNextdotjs />
-            <h5>NextJS</h5>
-          </div>
-          <div>
             <FaNodeJs />
             <h5>Nodejs</h5>
           </div>
@@ -77,6 +70,10 @@ export const TechStacks = () => {
             <h5>MongoDb</h5>
           </div>
           <div>
+            <VscGithub />
+            <h5>GitHub</h5>
+          </div>
+          <div>
             <DiMysql />
             <h5>MySQL</h5>
           </div>
@@ -84,6 +81,16 @@ export const TechStacks = () => {
             <DiPostgresql />
             <h5>PostgreSQL</h5>
           </div>
+          
+          <div>
+            <SiFirebase />
+            <h5>Firebase</h5>
+          </div>
+          <div>
+          <SiNextdotjs />
+            <h5>NextJS</h5>
+          </div>
+          
           <div>
             <SiServerless />
             <h5>ServerLess</h5>
@@ -92,10 +99,7 @@ export const TechStacks = () => {
             <SiAmazons3 />
             <h5>AmazonS3</h5>
           </div>
-          <div>
-            <VscGithub />
-            <h5>GitHub</h5>
-          </div>
+          
         </div>
 
       </div>
