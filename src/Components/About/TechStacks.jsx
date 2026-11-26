@@ -1,6 +1,6 @@
 import React from "react";
 import "./TechStacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import {
   SiHtml5,
   SiCplusplus,
@@ -15,7 +15,6 @@ import {
   SiSequelize,
   SiMongoose,
   SiDocker,
-  SiAmazonaws,
   SiApachekafka,
   SiRabbitmq,
   SiGit,
@@ -56,7 +55,7 @@ const skills = [
   { icon: SiPrisma, name: "Prisma" },
   // Cloud, DevOps & monitoring
   { icon: SiDocker, name: "Docker" },
-  { icon: SiAmazonaws, name: "AWS" },
+  { icon: FaAws, name: "AWS" },
   { icon: SiLinux, name: "Linux / SSH" },
   { icon: SiPrometheus, name: "Prometheus" },
   { icon: SiGrafana, name: "Grafana" },

@@ -2,9 +2,8 @@ import React from "react";
 import "./About.css";
 import { Type } from "./Type";
 import { BsGithub } from "react-icons/bs";
-import { SiLinkedin } from "react-icons/si";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaPhone } from "react-icons/fa";
+import { FaPhone, FaLinkedin } from "react-icons/fa";
 import { Intro } from "./Intro";
 import { Timeline } from "./Timeline";
 import { TechStacks } from "./TechStacks";
@@ -60,7 +59,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <SiLinkedin />
+            <FaLinkedin />
           </a>
         </div>
 

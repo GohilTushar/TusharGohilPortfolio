@@ -12,10 +12,10 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiNextdotjs,
-  SiGoogle,
+  SiGooglegemini,
+  SiClerk,
   SiPrisma,
   SiPostgresql,
-  SiTypescript,
   SiMongodb,
   SiRedux,
 } from "react-icons/si";
@@ -39,10 +39,10 @@ export const Project = () => {
                 </p>
                 <div>
                   <SiNextdotjs/>
-                  <SiGoogle/>
+                  <SiGooglegemini/>
                   <SiPrisma/>
                   <SiPostgresql/>
-                  <SiTypescript/>
+                  <SiClerk/>
                 </div>
                 <div>
                   <a
