@@ -1,26 +1,105 @@
 import React from "react";
 import "./Project.css";
-import ExpenseTracker from "../../Assets/ExpenseTracker.png";
+import Stackboard from "../../Assets/Stackboard.jpg";
+import TeamSync from "../../Assets/TeamSync.jpg";
 import NetflixGPT from "../../Assets/netflix-gpt.png";
 import LMS from "../../Assets/LMS.png";
-import IG from "../../Assets/IG.png";
 import {
-  SiHtml5,
   SiExpress,
   SiNodedotjs,
   SiReact,
   SiMysql,
   SiTailwindcss,
   SiFirebase,
+  SiNextdotjs,
+  SiGoogle,
+  SiPrisma,
+  SiPostgresql,
+  SiTypescript,
+  SiMongodb,
+  SiRedux,
 } from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io";
 export const Project = () => {
   return (
     <>
       <div className="section main">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={Stackboard} alt="Stackboard" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Stackboard</h2>
+                <p>
+                  AI-powered, real-time collaborative system design canvas. Describe an architecture in plain English and a Gemini agent draws it live for every collaborator, with live cursors, presence and one-click Markdown spec export.
+                </p>
+                <div>
+                  <SiNextdotjs/>
+                  <SiGoogle/>
+                  <SiPrisma/>
+                  <SiPostgresql/>
+                  <SiTypescript/>
+                </div>
+                <div>
+                  <a
+                    href="https://stackboard-mu.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/GohilTushar/StackBoard"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={TeamSync} alt="TeamSync" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>TeamSync</h2>
+                <p>
+                  Multi-tenant B2B project management SaaS with workspace isolation, Google OAuth, role-based access (Owner/Admin/Member), task tracking with filters, and Mongoose transactions for data integrity.
+                </p>
+                <div>
+                  <SiMongodb/>
+                  <SiExpress/>
+                  <SiReact/>
+                  <SiNodedotjs/>
+                  <SiRedux/>
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/GohilTushar/Team-Management"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -67,49 +146,6 @@ export const Project = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={IG} alt="Invoice Generator" />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Invoice Generator</h2>
-                <p>
-                  Allowing users to create, manage, and track invoices with CRUD
-                  operations. Integrated pagination, search, filtering, and
-                  sorting features for efficient invoice management
-                </p>
-                <div>
-                  <SiMysql />
-                  <SiExpress />
-                  <SiReact />
-                  <SiNodedotjs />
-                </div>
-                <div>
-                  <a
-                    href="https://github.com/GohilTushar/Invoice-Generator"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/GohilTushar/Invoice-Generator"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
                   <img src={LMS} alt="Leave Management Syatem" />
                 </div>
               </div>
@@ -138,50 +174,6 @@ export const Project = () => {
                   </a>
                   <a
                     href="https://github.com/GohilTushar/LMS"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img src={ExpenseTracker} alt="Expense Tracker" />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Expense Tracker </h2>
-                <p>
-                  It provides a systematic way to record, categorize, and
-                  analyze expenses, allowing users to gain insights into their
-                  financial habits, make informed decisions, and create
-                  effective budgets.
-                </p>
-                <div>
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />
-                  <SiReact />
-                </div>
-                <div>
-                  <a
-                    href="https://expense-tracker-flax-nine.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/GohilTushar/ExpenseTracker"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -3,7 +3,7 @@ import "./Intro.css";
 // import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { MdOutlineExitToApp } from "react-icons/md";
 import { ThemeContext } from "../../Context/Theme";
-import profilePic from "../../Assets/200280107113.jpg";
+import profilePic from "../../Assets/Tushar.png";
 
 
 export const Intro = () => {

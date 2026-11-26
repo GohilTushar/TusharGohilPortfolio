@@ -34,7 +34,44 @@ export const Timeline = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"May 2024 - Present"}
+            date={"Jan 2026 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<MdOutlineWorkOutline />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Sr. MERN Stack Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              <span className="link">Grow Solutions</span>
+            </h4>
+            Leading a Keka-inspired enterprise HRMS (recruitment, attendance, leave, payroll, RBAC) on MySQL, built with AI-driven workflows using Claude Code and Codex.
+            <p data-aos="fade-right">
+              Also built the company website with GSAP and Framer Motion, and admin panels with encrypted API payloads.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"May 2024 - Oct 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",

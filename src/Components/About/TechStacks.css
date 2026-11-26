@@ -5,8 +5,8 @@
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
-  height:70vh;
-  /* min-height: 100px; */
+  /* grow with the number of skills and contain the floated tiles */
+  display: flow-root;
 }
 
 .techsection > div {
@@ -47,9 +47,6 @@
 }
 
 @media (max-width: 600px) {
-  .techsection {
-    height: 120vh;
-  }
   .techsection > div {
     width: 40%;
     margin-right: 5%;
